@@ -4,7 +4,7 @@ from dash import Dash, html, dcc, Input, Output, State
 import plotly.express as px
 import pandas as pd
 
-dat = pd.read_excel("https://github.com/datenlabor01/geodaten/raw/main/testdata_processed.xlsx")
+dat = pd.read_excel("https://github.com/datenlabor01/aussendarstellung/raw/main/testdata_processed.xlsx")
 #app = JupyterDash(__name__, external_stylesheets=[dbc.themes.LUX])
 app = Dash(external_stylesheets = [dbc.themes.ZEPHYR])
 
